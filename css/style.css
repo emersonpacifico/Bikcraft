@@ -14,3 +14,9 @@
 
 /*Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
+
+/*Seguros */
+@import "./seguros.css/seguros.css";
+
+/*Footer*/
+@import "./global/footer.css";
