@@ -20,3 +20,9 @@
 
 /*Footer*/
 @import "./global/footer.css";
+
+/*termos/condições*/
+@import "./termos/condições/termos.css";
+
+/*Bicicletas*/
+@import "./bicicletas/bicicletas.css";

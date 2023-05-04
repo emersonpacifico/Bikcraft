@@ -1,0 +1,37 @@
+.title-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.title p {
+  margin-bottom: 4px;
+}
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .title p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.termos {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.termos p + p {
+  margin-top: 24px;
+}
+.termos p {
+  max-width: 75ch;
+}
+.mt {
+  margin-top: 40px;
+}
