@@ -28,3 +28,10 @@
 
 /*Bicicletas*/
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/nimbus.css";
+@import "./bicicletas/seguro.css";
+
+/*Contato*/
+@import "./contato/contato.css";
+@import "./contato/formulario.css";
+@import "./contato/lojas.css";

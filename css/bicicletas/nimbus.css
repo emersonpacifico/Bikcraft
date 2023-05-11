@@ -1,0 +1,108 @@
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+#bicicleta .title > p {
+  text-transform: uppercase;
+}
+.bicicleta-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bicicleta-img img {
+  flex: 1;
+  min-width: 200px;
+}
+.bicicleta-img img:nth-child(1) {
+  min-width: 100%;
+}
+.bicicleta-conteudo > p {
+  margin-bottom: 20px;
+}
+.bicicleta-comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+  margin-bottom: 32px;
+}
+.bicicleta-comprar a {
+  grid-row: span 2;
+}
+.bicicleta-comprar span {
+  background-color: var(--cor-12);
+  max-width: max-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.bicicleta-conteudo h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
+}
+.bicicleta-infomacoes,
+.bicicleta-ficha {
+  background-color: var(--cor-12);
+  padding: 30px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.bicicleta-infomacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.bicicleta-infomacoes img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+.bicicleta-infomacoes h3 {
+  margin-bottom: 8px;
+}
+
+.bicicleta-ficha li {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
+}
+.bicicleta-ficha li:last-child {
+  border-bottom: none;
+}
+.bicicleta-ficha span {
+  color: var(--cor-6);
+}
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicleta-img {
+    grid-row: 2;
+  }
+}
+@media (max-width: 400px) {
+  .header-menu {
+    justify-content: center;
+  }
+  .bicicleta-img {
+    grid-row: 2;
+  }
+  .bicicleta-infomacoes,
+  .bicicleta-comprar {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bicicleta-list {
+  background-color: var(--cor-0);
+}
