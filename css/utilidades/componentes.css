@@ -19,6 +19,10 @@
   border: none;
   cursor: pointer;
 }
+
+.col-2 {
+  grid-column: span 2;
+}
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
