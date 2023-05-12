@@ -30,6 +30,8 @@
 .form-inpur-expand {
   grid-column: span 2;
 }
+button {
+}
 @media (max-width: 600) {
   .form {
     grid-template-columns: 1fr;

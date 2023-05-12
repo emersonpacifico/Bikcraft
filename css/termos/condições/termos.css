@@ -17,7 +17,9 @@
     font-weight: 400;
   }
 }
-
+.main-bg {
+  background-color: var(--cor-0);
+}
 .termos h2 {
   font-weight: 600;
   margin-bottom: 20px;
