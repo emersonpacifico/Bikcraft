@@ -10,6 +10,7 @@ body {
 }
 img {
   max-width: 100%;
+  height: auto;
 }
 a {
   color: inherit; /*O inhereit herda a cor do Pai*/

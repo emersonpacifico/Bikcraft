@@ -4,6 +4,7 @@
 .orcamento {
   display: grid;
   grid-template-columns: 5fr 7fr;
+  padding-bottom: 80px;
 }
 .orcamento h2 {
   position: relative;
@@ -89,10 +90,15 @@
 
 .orcamento-conteudo h2 {
   margin-top: 20px;
+  margin-bottom: 12px;
 }
 .orcamento-conteudo h2,
 .orcamento-dados h2:nth-of-type(n + 2) .orcamento-produto > label {
   grid-column: initial;
+}
+
+.orcamento-conteudo label {
+  margin-bottom: 10px;
 }
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
